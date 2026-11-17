@@ -41,8 +41,9 @@ Las rutas son relativas: funciona en subdirectorios.
 
 Si el repositorio es todo el proyecto (no solo esta carpeta):
 
-1. GitHub → Settings → Pages → Source: **GitHub Actions**.
-2. El workflow `.github/workflows/github-pages.yml` publica `public/isabel`.
+1. En GitHub → Settings → Pages, en **Build and deployment**, elige **GitHub Actions** como Source. Este paso inicial se debe hacer desde la configuración del repositorio; el token del workflow no tiene permiso para habilitar Pages automáticamente.
+2. El workflow `.github/workflows/github-pages.yml` publica `public/isabel` en cada push a `main`.
+3. Si una ejecución falló antes de habilitar Pages, vuelve a ejecutarla desde la pestaña **Actions** después de guardar la configuración.
 
 ## Probar en el computador
 

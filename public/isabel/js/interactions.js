@@ -71,7 +71,7 @@
   }
 
   var targets = document.querySelectorAll(
-    ".section-head, .item, .steps li, .order-form, .events__text, .events__media, .about > *, .faq__list, .contact__inner > *"
+    ".section-head, .item, .steps li, .order-form, .events__text, .events__media, .banqueteria__photo, .about > *, .faq__list, .contact__inner > *"
   );
   if (!("IntersectionObserver" in window) || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   targets.forEach(function (t) {

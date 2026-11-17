@@ -15,8 +15,8 @@ Sitio estático (HTML5, CSS3, JavaScript). Sin backend. Listo para GitHub Pages 
 
 ## Solo te falta
 
-1. Poner fotos en `assets/images/` con los nombres de esa carpeta (ver `assets/images/README.md`).
-2. Si tienes el logo original, reemplaza `assets/logo/logo-isabel.svg`.
+1. Poner fotos en `assets/images/` con los nombres de esa carpeta (ver `assets/images/README.md`), incluyendo `galletas.jpg` y hasta seis fotos `banqueteria-1.jpg` a `banqueteria-6.jpg`.
+2. El sitio usa el logo PNG `assets/logo/logoisabel.png`.
 3. Si cambia el número o Instagram, edita `js/config.js`.
 
 No inventes precios ni horarios en el HTML hasta tenerlos confirmados. Los precios se pueden agregar así:

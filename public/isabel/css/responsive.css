@@ -12,12 +12,14 @@
   .hero__media{min-height:56svh;order:-1}
   .events__inner,.about,.contact__inner,.order__grid{grid-template-columns:1fr}
   .gallery{grid-template-columns:repeat(2,1fr)}
+  .banqueteria__gallery{grid-template-columns:repeat(2,minmax(0,1fr))}
   .section-head{grid-template-columns:1fr}
   .section-head__note{justify-self:start}
 }
 @media (max-width:600px){
   body{font-size:1rem}
   .gallery{grid-template-columns:1fr}
+  .banqueteria__gallery{grid-template-columns:1fr}
   .item--tall,.item--wide{grid-column:auto;grid-row:auto}
   .item .photo{min-height:0;aspect-ratio:4/5;flex:none}
   .item--wide .photo{aspect-ratio:4/3}

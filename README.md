@@ -314,7 +314,7 @@ Categorías iniciales:
 
 - Tortas personalizadas.
 
-- Cupcakes.
+- Galletas.
 
 - Alfajores.
 
@@ -384,7 +384,7 @@ Servicios que se deben destacar:
 
 - Buffet de postres.
 
-- Servicio de cafetería.
+- Servicio de coctelería.
 
 - Atención y banquetería para eventos.
 

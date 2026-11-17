@@ -107,6 +107,13 @@
 .events__cta .script{grid-column:1}
 .events__cta .btn{grid-column:2;grid-row:1/3;align-self:center}
 
+/* Banquetería */
+.banqueteria__intro{max-width:70ch;color:var(--cocoa-soft);margin:-.75rem 0 2rem}
+.banqueteria__gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(1rem,2vw,1.75rem)}
+.banqueteria__photo{aspect-ratio:4/3}
+.banqueteria__note{margin:1.5rem 0 0;color:var(--cocoa-soft)}
+.banqueteria__note a{color:var(--cocoa);text-underline-offset:.2em}
+
 /* Nosotros */
 .about{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2.5rem,7vw,7rem);align-items:center}
 .about__photo{aspect-ratio:4/5}
